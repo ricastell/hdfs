@@ -10,7 +10,7 @@ import (
 
 	hadoop "github.com/ricastell/hdfs/v2/internal/protocol/hadoop_common"
 	"github.com/golang/protobuf/proto"
-	krb "gopkg.in/jcmturner/gokrb5.v5/client"
+	krb "gopkg.in/jcmturner/gokrb5.v6/client"
 )
 
 const (

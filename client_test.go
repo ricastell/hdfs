@@ -11,9 +11,9 @@ import (
 	"github.com/ricastell/hdfs/v2/hadoopconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	krb "gopkg.in/jcmturner/gokrb5.v5/client"
-	"gopkg.in/jcmturner/gokrb5.v5/config"
-	"gopkg.in/jcmturner/gokrb5.v5/credentials"
+	krb "gopkg.in/jcmturner/gokrb5.v6/client"
+	"gopkg.in/jcmturner/gokrb5.v6/config"
+	"gopkg.in/jcmturner/gokrb5.v6/credentials"
 )
 
 var cachedClients = make(map[string]*Client)

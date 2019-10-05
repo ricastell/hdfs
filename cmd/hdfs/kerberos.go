@@ -6,9 +6,9 @@ import (
 	"os/user"
 	"strings"
 
-	krb "gopkg.in/jcmturner/gokrb5.v5/client"
-	"gopkg.in/jcmturner/gokrb5.v5/config"
-	"gopkg.in/jcmturner/gokrb5.v5/credentials"
+	krb "gopkg.in/jcmturner/gokrb5.v6/client"
+	"gopkg.in/jcmturner/gokrb5.v6/config"
+	"gopkg.in/jcmturner/gokrb5.v6/credentials"
 )
 
 // TODO: Write a kerberos_windows.go and move this to kerberos_unix.go. This
