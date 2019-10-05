@@ -10,10 +10,10 @@ import (
 	"os/user"
 	"strings"
 
-	"github.com/colinmarc/hdfs/v2/hadoopconf"
-	hdfs "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_hdfs"
-	"github.com/colinmarc/hdfs/v2/internal/rpc"
-	krb "gopkg.in/jcmturner/gokrb5.v5/client"
+	"github.com/ricastell/hdfs/v2/hadoopconf"
+	hdfs "github.com/ricastell/hdfs/v2/internal/protocol/hadoop_hdfs"
+	"github.com/ricastell/hdfs/v2/internal/rpc"
+	krb "gopkg.in/jcmturner/gokrb5.v6/client"
 )
 
 // A Client represents a connection to an HDFS cluster

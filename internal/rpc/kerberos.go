@@ -6,10 +6,10 @@ import (
 	"net"
 	"regexp"
 
-	hadoop "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_common"
-	"gopkg.in/jcmturner/gokrb5.v5/gssapi"
-	"gopkg.in/jcmturner/gokrb5.v5/iana/keyusage"
-	krbtypes "gopkg.in/jcmturner/gokrb5.v5/types"
+	hadoop "github.com/ricastell/hdfs/v2/internal/protocol/hadoop_common"
+	"gopkg.in/jcmturner/gokrb5.v6/gssapi"
+	"gopkg.in/jcmturner/gokrb5.v6/iana/keyusage"
+	krbtypes "gopkg.in/jcmturner/gokrb5.v6/types"
 )
 
 const saslRpcCallId = -33
